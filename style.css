@@ -69,11 +69,13 @@ body {
 
 /* ── Catchphrase ── */
 .catchphrase {
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  color: #c0c0c0;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #bbbbbb;
   text-align: center;
+  line-height: 1.9;
 }
 
 /* ── Coming Soon ── */
