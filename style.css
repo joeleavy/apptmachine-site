@@ -47,7 +47,9 @@ body {
 }
 
 .logo-wordmark .appt {
-  letter-spacing: 8px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  color: #aaaaaa;
 }
 
 .logo-wordmark span {
