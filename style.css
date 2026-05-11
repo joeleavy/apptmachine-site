@@ -1,0 +1,77 @@
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #c8c8c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Layout ── */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+/* ── Logo group ── */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-mark {
+  display: block;
+}
+
+.logo-wordmark {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.logo-wordmark span {
+  font-weight: 600;
+  color: #999999;
+}
+
+.logo-divider {
+  width: 28px;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.logo-tagline {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  text-align: center;
+  line-height: 1.9;
+}
+
+/* ── Coming Soon ── */
+.coming-soon {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+}
