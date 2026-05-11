@@ -67,6 +67,15 @@ body {
   line-height: 1.9;
 }
 
+/* ── Catchphrase ── */
+.catchphrase {
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #c0c0c0;
+  text-align: center;
+}
+
 /* ── Coming Soon ── */
 .coming-soon {
   font-size: 9px;
