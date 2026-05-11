@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 44px;
 }
 
 /* ── Logo group ── */
@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 28px;
 }
 
 .logo-mark {
@@ -39,9 +39,9 @@ body {
 }
 
 .logo-wordmark {
-  font-size: 28px;
+  font-size: 42px;
   font-weight: 400;
-  letter-spacing: 8px;
+  letter-spacing: 12px;
   text-transform: uppercase;
   color: #aaaaaa;
 }
@@ -51,27 +51,11 @@ body {
   color: #999999;
 }
 
-.logo-divider {
-  width: 28px;
-  height: 1px;
-  background: #e0e0e0;
-}
-
-.logo-tagline {
-  font-size: 10px;
-  font-weight: 400;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: #bbbbbb;
-  text-align: center;
-  line-height: 1.9;
-}
-
 /* ── Catchphrase ── */
 .catchphrase {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: #bbbbbb;
   text-align: center;
@@ -80,9 +64,9 @@ body {
 
 /* ── Coming Soon ── */
 .coming-soon {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 600;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   color: #bbbbbb;
 }
